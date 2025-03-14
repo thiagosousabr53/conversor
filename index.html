@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Universal de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons8-dinheiro-dólar-16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+
+        <div class="converter">
+            <label for="from-currency">De:</label>
+            <select id="from-currency"></select>
+
+            <label for="to-currency">Para:</label>
+            <select id="to-currency"></select>
+
+            <input type="number" id="amount" placeholder="Digite o valor" min="0">
+
+            <button id="convert-btn">Converter</button>
+        </div>
+
+        <div class="result">
+            <p id="converted-value">Resultado aparecerá aqui</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
